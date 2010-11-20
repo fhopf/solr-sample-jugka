@@ -2,10 +2,14 @@ Contains sample code and presentation for Solr demo used at a lightning talk at 
 
 The demo consists of two parts: A preconfigured solr with an index configuration 
 
+Install solr and configure:
+1. Download solr 1.4.1 from http://lucene.apache.org/solr/ and unpack it
+2. cp solr-config/schema.xml and solr-config/solrconfig.xml to apache-solr-1.4.1/example/solr/conf/
+
 Run the demo:
 1. Start solr: 
 
-cd apache-solr-1.4.1/solr-demo
+cd apache-solr-1.4.1/example
 java -jar start.jar
 
 This will start the internal jetty on port 8983. Admin interface can accessed at http://localhost:8983/solr/admin/
