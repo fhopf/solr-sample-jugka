@@ -1,0 +1,22 @@
+Contains sample code and presentation for Solr demo used at a lightning talk at Java User Group Karlsruhe
+
+The demo consists of two parts: A preconfigured solr with an index configuration 
+
+Run the demo:
+1. Start solr: 
+
+cd apache-solr-1.4.1/solr-demo
+java -jar start.jar
+
+This will start the internal jetty on port 8983. Admin interface can accessed at http://localhost:8983/solr/admin/
+
+2. Start the dempo application
+
+cd solr-demo
+mvn jetty:run
+
+The application will be available at http://localhost:8080/solr-demo/app/search
+
+3. Index data
+
+Run index.sh to index the presentation file and play with other different formats. Run clear-index.sh to remove everything from the index.  

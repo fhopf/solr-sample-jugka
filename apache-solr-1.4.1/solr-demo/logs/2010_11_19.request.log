@@ -1,0 +1,16 @@
+127.0.0.1 -  -  [19/11/2010:08:31:22 +0000] "GET /admin/ HTTP/1.1" 404 1293 
+127.0.0.1 -  -  [19/11/2010:08:31:22 +0000] "GET /favicon.ico HTTP/1.1" 200 1150 
+127.0.0.1 -  -  [19/11/2010:08:31:27 +0000] "GET / HTTP/1.1" 404 801 
+127.0.0.1 -  -  [19/11/2010:08:31:29 +0000] "GET /solr HTTP/1.1" 302 0 
+127.0.0.1 -  -  [19/11/2010:08:31:30 +0000] "GET /solr/admin/solr_small.png HTTP/1.1" 200 7926 
+127.0.0.1 -  -  [19/11/2010:08:31:29 +0000] "GET /solr/ HTTP/1.1" 200 444 
+127.0.0.1 -  -  [19/11/2010:08:31:30 +0000] "GET /solr/solr-admin.css HTTP/1.1" 404 1396 
+127.0.0.1 -  -  [19/11/2010:08:31:30 +0000] "GET /solr/favicon.ico HTTP/1.1" 200 1146 
+127.0.0.1 -  -  [19/11/2010:08:31:31 +0000] "GET /solr/admin/ HTTP/1.1" 200 3744 
+127.0.0.1 -  -  [19/11/2010:08:31:31 +0000] "GET /solr/admin/solr-admin.css HTTP/1.1" 200 3846 
+127.0.0.1 -  -  [19/11/2010:08:31:32 +0000] "GET /solr/admin/favicon.ico HTTP/1.1" 200 1146 
+127.0.0.1 -  -  [20/11/2010:09:04:38 +0000] "POST /solr/update?commit=true HTTP/1.1" 200 149 
+127.0.0.1 -  -  [20/11/2010:09:05:12 +0000] "POST /solr/update/extract?literal.id=solr.odp&literal.keywords=java&literal.keywords=solr HTTP/1.1" 200 149 
+127.0.0.1 -  -  [20/11/2010:09:05:13 +0000] "POST /solr/update HTTP/1.1" 200 148 
+127.0.0.1 -  -  [20/11/2010:09:09:51 +0000] "GET /solr/select?q=solr&wt=javabin&version=1 HTTP/1.1" 200 2133 
+127.0.0.1 -  -  [20/11/2010:09:13:24 +0000] "POST /solr/update?commit=true HTTP/1.1" 200 148 
